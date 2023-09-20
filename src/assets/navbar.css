@@ -1,0 +1,95 @@
+* {
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mainContainer {
+  width: 70em;
+}
+
+#logoDiv {
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#logoDiv #logo {
+  color: #37447e;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+#logoDiv #signupBtn {
+  background-color: #111b47;
+  width: 9em;
+  height: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+#logoDiv #signupBtn:hover {
+  transform: scale(1.05);
+}
+#links {
+  /* border: 1px solid #333; */
+  width: 18em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#links a {
+  color: #505f98;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+#toggleBtn .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgb(17,27,71)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 1000px) {
+  #mainContainer {
+    width: 20em;
+    height: auto;
+  }
+
+  #logoDiv {
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #navMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+}
