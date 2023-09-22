@@ -1,10 +1,17 @@
 // src/components/Navbar.js
 
-import React from "react";
+import React,{useEffect} from "react";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap"; // Import Bootstrap components
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 function AppNavbar() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+  
   return (
     <div className="container" id="mainContainer">
       <Navbar expand="lg" variant="dark" id="mainNav" className="container">
@@ -22,7 +29,7 @@ function AppNavbar() {
             </Nav>
           </Navbar.Collapse>
           <div className="container" id="logoDiv">
-            <Navbar.Brand href="/" id="logo">
+            <Navbar.Brand href="/" id="logo" data-aos = "zoom-in">
               MaxPay
             </Navbar.Brand>
             <a href="#">
