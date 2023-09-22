@@ -52,7 +52,7 @@
 }
 @media (max-width: 768px) {
   body{
-    overflow:auto;
+    overflow-y:auto;
   }
   #purpleBg {
     border-radius: 0px;

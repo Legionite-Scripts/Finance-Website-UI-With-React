@@ -66,7 +66,7 @@
 /* Screens lower than 768px */
 @media (max-width: 768px) {
   body{
-    overflow:auto;
+    overflow-y:auto;
   }
   #sectionTwo {
     width: 100%;

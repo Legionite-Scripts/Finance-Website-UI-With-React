@@ -68,7 +68,7 @@ hr {
 /* Screens Lower than 768px */
 @media (max-width: 768px) {
   body{
-    overflow:auto;
+    overflow-y:auto;
   }
   #footer {
     height: 40em;

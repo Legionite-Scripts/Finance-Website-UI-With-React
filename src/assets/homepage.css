@@ -81,7 +81,7 @@ body {
 /* Screens lower than 768px */
 @media (max-width: 768px) {
   body{
-    overflow:auto;
+    overflow-y:auto;
   }
   #homePage {
     height: 50em;
