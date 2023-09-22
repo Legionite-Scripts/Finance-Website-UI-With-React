@@ -1,17 +1,13 @@
 import React,{useEffect} from "react";
 import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 
 function PurPleBG() {
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
 
   return (
-    <Container id="purpleBg" data-aos = "zoom-in">
+    <Container id="purpleBg">
       <div className="container" id="innerDiv">
         <h1 className="display-6">Ready to take control of your finances?</h1>
         <p id="firstText">

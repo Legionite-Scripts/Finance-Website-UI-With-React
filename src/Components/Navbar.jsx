@@ -8,9 +8,7 @@ import "aos/dist/aos.css";
 
 
 function AppNavbar() {
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
+
   
   return (
     <div className="container" id="mainContainer">
@@ -29,7 +27,7 @@ function AppNavbar() {
             </Nav>
           </Navbar.Collapse>
           <div className="container" id="logoDiv">
-            <Navbar.Brand href="/" id="logo" data-aos = "zoom-in">
+            <Navbar.Brand href="/" id="logo">
               MaxPay
             </Navbar.Brand>
             <a href="#">

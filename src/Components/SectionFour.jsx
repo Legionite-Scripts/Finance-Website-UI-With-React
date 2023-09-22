@@ -1,16 +1,13 @@
 import React,{useEffect} from "react";
 import paymentImage from "./images/image-4.jpg";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 function SectionFour() {
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
+
   return (
     <div className="container" id="sectionFour">
-      <div className="container" id="sectionFourDetails" data-aos = "fade-right">
+      <div className="container" id="sectionFourDetails">
         <h1 className="display-6">What our Users say about us.</h1>
         <div className="container" id="sectionFourInnerDetails">
           <p>

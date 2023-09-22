@@ -1,13 +1,10 @@
 import React, { useEffect } from "react";
 import paymentImage from "./images/image-1.jpg";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 function HomePage() {
-  useEffect(() => {
-    AOS.init({ duration: 3000 });
-  }, []);
+
 
   let headingText = "Transforming finance for a better tomorrow";
   let introductionText =
@@ -15,7 +12,7 @@ function HomePage() {
 
   return (
     <div className="container" id="homePage">
-      <div className="container" id="intro" data-aos="fade-right">
+      <div className="container" id="intro">
         <div id="separation" className="container">
           <h1 className="display-6" id="header">
             {headingText}

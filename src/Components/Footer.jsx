@@ -1,16 +1,13 @@
 import React, { useEffect } from "react";
 import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 function Footer() {
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
+
 
   return (
-    <Container id="footer" data-aos = "zoom-in">
+    <Container id="footer" >
       <h1>MaxPay</h1>
       <div className="container" id="footerInnerDiv">
         <p>@MaxPay</p>
