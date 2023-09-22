@@ -2,7 +2,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import AppNavbar from "./Components/Navbar.jsx";
 import HomePage from "./Components/Homepage.jsx";
-import SectionTwo from "./Components/sectionTwo.jsx";
+import SectionTwo from "./Components/SectionTwo.jsx";
 import SectionThree from "./Components/SectionThree.jsx";
 import SectionFour from "./Components/SectionFour.jsx";
 import PurPleBG from "./Components/PurpleBg.jsx";
