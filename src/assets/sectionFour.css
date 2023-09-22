@@ -48,6 +48,14 @@
   body{
     overflow-y:auto;
     overflow-x: hidden;
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   }
   #sectionFour {
     height: 60em;
