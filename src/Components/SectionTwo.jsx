@@ -24,12 +24,12 @@ function SectionTwo() {
         </div>
         <div className="container" id="details">
           <div className="container" id="firstDetail">
-            <i class="fa-solid fa-comments-dollar"></i>
+            <i className="fa-solid fa-comments-dollar"></i>
             <h1>Smart Budgeting</h1>
             <p>Effortlessly manage your expenses and saving goals.</p>
           </div>
           <div className="container" id="secondDetail">
-            <i class="fa-solid fa-file-pen"></i>
+            <i className="fa-solid fa-file-pen"></i>
             <h1>Secure Transactions</h1>
             <p>Rest easy with bank level security.</p>
           </div>

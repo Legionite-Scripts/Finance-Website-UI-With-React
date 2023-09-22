@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-y: initial;
 }
 #homePage {
   height: 30em;
@@ -79,6 +80,9 @@ body {
 
 /* Screens lower than 768px */
 @media (max-width: 768px) {
+  body{
+    overflow-y: initial;
+  }
   #homePage {
     height: 50em;
     display: flex;
