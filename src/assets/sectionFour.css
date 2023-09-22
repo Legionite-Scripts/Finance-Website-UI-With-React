@@ -45,9 +45,9 @@
 }
 /* Screens lower than 768px */
 @media (max-width: 768px) {
-    *{
-        overflow: hidden;
-    }
+  body{
+    overflow:auto;
+  }
   #sectionFour {
     height: 60em;
     width: 100%;

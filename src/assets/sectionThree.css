@@ -46,6 +46,9 @@
 
 /* Screens lower than 768px */
 @media (max-width: 768px) {
+  body{
+    overflow:auto;
+  }
   #sectionThree {
     height: 60em;
     width: 100%;
