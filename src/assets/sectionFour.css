@@ -47,6 +47,7 @@
 @media (max-width: 768px) {
   body{
     overflow-y:auto;
+    overflow-x: hidden;
   }
   #sectionFour {
     height: 60em;

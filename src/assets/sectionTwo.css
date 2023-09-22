@@ -67,6 +67,7 @@
 @media (max-width: 768px) {
   body{
     overflow-y:auto;
+    overflow-x: hidden;
   }
   #sectionTwo {
     width: 100%;

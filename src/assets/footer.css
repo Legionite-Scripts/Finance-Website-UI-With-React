@@ -69,6 +69,7 @@ hr {
 @media (max-width: 768px) {
   body{
     overflow-y:auto;
+    overflow-x: hidden;
   }
   #footer {
     height: 40em;

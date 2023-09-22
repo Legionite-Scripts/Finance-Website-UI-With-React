@@ -48,6 +48,7 @@
 @media (max-width: 768px) {
   body{
     overflow-y:auto;
+    overflow-x: hidden;
   }
   #sectionThree {
     height: 60em;

@@ -82,6 +82,7 @@ body {
 @media (max-width: 768px) {
   body{
     overflow-y:auto;
+    overflow-x: hidden;
   }
   #homePage {
     height: 50em;
